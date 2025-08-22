@@ -1,0 +1,10 @@
+importJava.util*;
+public class main {
+public static void main( string[] args){
+scanner sc= new
+scanner( system.in);
+int a = sc.nextInt();
+int b = sc.nextInt();
+system.out.println("sum= "+(a+b);
+}  
+   }
