@@ -1,0 +1,13 @@
+importjava.*;
+public class main{
+public static void main ( string[] args )
+}
+scanner sc = new
+scanner ( system.in);
+system.out.println("enter the meter value;");
+double meter = sc,next double();
+double feet = meter10.305;
+system.out.println("meter in foot is : "+feet)
+}
+
+   }
