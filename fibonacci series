@@ -1,0 +1,16 @@
+import.util.*;
+public class.fibonacci{
+public static void main ( string[] args )
+}
+scanner sc = sc.next Int();
+int first= 0, second;
+system.out.println("fibonacci series");
+for ( int i= 1, i<=n,i++);
+system.out.println( first+"");
+int next = first+second;
+first= second;
+second= next;
+}
+}
+  }
+  
