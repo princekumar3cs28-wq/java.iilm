@@ -1,0 +1,54 @@
+
+
+class Account {
+    int balance;
+
+    // Constructor
+    Account(int initialBalance) {
+        balance = initialBalance;
+    }
+
+    // Deposit method
+    void deposit(int amount) {
+        balance = balance + amount;
+        System.out.println("Deposited: " + amount);
+    }
+
+    // Withdraw method
+    void withdraw(int amount) {
+        if (amount <= balance) {
+            balance = balance - amount;
+            System.out.println("Withdrawn: " + amount);
+        } else {
+            System.out.println("Not enough balance!");
+        }
+    }
+
+    // Show balance
+    void showBalance() {
+        System.out.println("Balance: " + balance);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Account acc = new Account(1000);  // starting balance
+
+        acc.showBalance();
+        acc.deposit(500);
+        acc.withdraw(300);
+        acc.withdraw(1500); // more than balance
+        acc.showBalance();
+    }
+}
+
+✅ Sample Output:
+
+Balance: 1000
+Deposited: 500
+Withdrawn: 300
+Not enough balance!
+Balance: 1200
+
+Do you want me to make this interactive with Scanner (so user enters amount at runtime), or just keep it fixed values like above?
+
